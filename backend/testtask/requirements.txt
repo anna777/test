@@ -1,0 +1,4 @@
+Django==2.2.1
+corsheaders==2.5.3
+python==3.5
+rest_framework
