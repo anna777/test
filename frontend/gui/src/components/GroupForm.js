@@ -1,5 +1,4 @@
 import React from 'react';
-import Select from 'react-select';
 
 import GroupsService from '../services/GroupsService';
 
@@ -72,7 +71,7 @@ class StudentForm extends React.Component{
           <div>
           <form onSubmit={(e)=>this.handleSubmit(e,this.props.requestType,this.props.groupID)}>
           <div className="form-group">
-            <label for="username">Student Name</label>
+            <label for="username">Group Name</label>
             <input type="text" className="form-control" name='groupName' value={this.state.groupName}
             onChange={this.handleGroupNameChange} placeholder="Group Name"/>
           </div>
